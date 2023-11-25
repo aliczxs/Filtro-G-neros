@@ -1,0 +1,15 @@
+
+<div class="flex-container">
+  <label for="categoriaInput">FILMES | GÊNEROS:</label>
+  <input id="categoriaInput" type="text" [(ngModel)]="categoriaSelecionada" />
+  <button (click)="filtrarFilmes()">Pesquisar</button>
+</div>
+
+<div *ngFor="let filme of filmesFiltrados">
+  <div>
+    <h2>{{ filme.nome }}</h2>
+    <p>{{ filme.descricao }}</p>
+    <img [src]="filme.imagem" alt="{{ filme.nome }} Imagem" id="capaFilme">
+    <p>Categoria: {{ filme.categoria }}</p>
+  </div>
+</div>
