@@ -37,7 +37,7 @@ export class AppComponent {
       nome: 'Jogos Vorazes - Em Chamas',
       categoria: 'Aventura',
       descricao: 'Após vencerem os Jogos Vorazes, Katniss e Peeta são forçados a participar do Massacre Quaternário. Enquanto isso, uma rebelião está crescendo nos distritos contra a opressão do Capitólio.',
-      imagem: 'caminho/para/jogos-vorazes-em-chamas.jpg'
+      imagem: 'https://m.media-amazon.com/images/S/pv-target-images/9000632cc49fbcfa07d83995319b4311976ed90ee3f52a196e7ab74ff0e59f70.jpg'
     },
     { 
       nome: 'Jogos Vorazes: A Esperança',
